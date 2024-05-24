@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Hub</title>
+    <link rel="shortcut icon" href="./assets/logo-removebg-preview.png" type="image/x-icon">
+    <!-- Bootstrap y Style.css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Navbar de Bootstrap-->
+        <nav class="navbar navbar-expand-md background-nav">
+            <div class="container-fluid flex-menu">
+                <a href="index.html"><img src="./assets/Logo.png" alt="Logo" id="logo"></a>
+                <button class="navbar-toggler collapsed btn-mobile" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse justify-content-end items-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item color-item">
+                            <a class="nav-link" aria-current="page" href="./pages/products.html">Products</a>
+                        </li>
+                        <li class="nav-item color-item">
+                            <a class="nav-link" href="./pages/how-to.html">How To</a>
+                        </li>
+                        <li class="nav-item color-item">
+                        <a class="nav-link" aria-current="page" href="./pages/faqs.html">FAQs</a>
+                        </li>
+                        <li class="nav-item color-item">
+                        <a class="nav-link" href="./pages/contact-us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <picture>
+                <source media="(min-width: 992px)" srcset="./assets/title-desktop.webp" alt="A hand greeting a virtual hand coming out of a notebook">
+                <img src="./assets/title-mobile.webp" class="img-fluid" alt="">
+            </picture>
+            
+        </section>
+
+        <section id="intro-index">
+            <div id="intro-index-text">
+                <h1>Welcome to the future of living</h1>
+                <p class="intro-text">
+                    In today's fast-paced world, convenience, efficiency, and security are paramount. Our comprehensive range of smart home solutions is designed to seamlessly integrate into your lifestyle, transforming your house into a cutting-edge, intelligent home of tomorrow.
+    
+                    Imagine a home where every aspect of daily living is enhanced by technology, where comfort, safety, and sustainability converge effortlessly. From automated lighting that adjusts to your preferences, to climate control systems that anticipate your needs, and security features that keep you protected around the clock, our smart home solutions offer unparalleled convenience and peace of mind.
+    
+                    At Smart Hub, we understand that every home is unique. That's why our smart home solutions are fully customizable, tailored to your specific needs and preferences. Whether you're looking to enhance security, streamline daily tasks, or simply enjoy the comforts of modern living, we have the expertise and technology to turn your vision into reality.
+    
+                    Join us on the journey to a smarter, more connected future. Experience the magic of intelligent living with Smart Hub.
+                </p>
+            </div>
+            <img src="./assets/security-house.webp" alt="" id="img-txt">
+        </section>
+    </main>
+    
+    <footer id="footer">
+        <section class="footer-copyright">
+            <ul>
+                <li>Phone: (206) 555-1234</li>
+                <li>3310 6th Ave W, Seattle, WA 98119, EE. UU.</li>
+                <li>administration@smarthub.com</li>
+                <li>Copyright © 2024 Smart Hub Company. All rights reserved.</li>
+            </ul>
+        </section>
+        
+        <section class="footer-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10751.13170367223!2d-122.36445799999998!3d47.649785!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549015a71bd102a9%3A0x66a294bb8bb16280!2s3310%206th%20Ave%20W%2C%20Seattle%2C%20WA%2098119%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1714657109411!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="google-map"></iframe>
+        </section>
+        
+        <section class="footer-social-media">
+            <p>Social Media</p>
+            <a href="http://instagram.com" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="http://x.com" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </section>
+    </footer>
+    <!-- Scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
