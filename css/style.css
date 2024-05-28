@@ -463,4 +463,21 @@ textarea{
         height: auto;
         width: 100%;
     }
+
+    /* Products Mobile */
+    #products-intro{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 20px;
+    }    
+
+    #products-list{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
 }
