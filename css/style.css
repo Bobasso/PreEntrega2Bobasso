@@ -146,6 +146,29 @@ ion-icon:hover{
     color: black;
 }
 
+/* Footer Mobile */
+@media (max-width: 767.98px){
+    #footer{
+        height: auto;
+        background-color: var(--color5);
+        color: whitesmoke;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        justify-items: center;
+        align-items: center;
+        font-size: 13px;
+        margin-top: auto;
+    }
+
+    .footer-map{
+        border: 1px solid black;
+        height: 18vh;
+        width: 90%;
+    }
+}
+
 /* Index Desktop */
 #intro-index {
     text-align: left;
