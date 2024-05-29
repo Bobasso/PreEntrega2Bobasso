@@ -1,0 +1,43 @@
+/* Font Txt */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Sedan:ital@0;1&display=swap');
+/* Font Model */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: var(--font-txt);
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+:root {
+    --color1: #237CD5;
+    --color2: #3971AA;
+    --color3: #0080FF;
+    --color4: #406080;
+    --color5: #394755;
+    --color6: #2B2F33;
+    --font-txt: "Sedan", serif;
+    --font-model: "Lato", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
