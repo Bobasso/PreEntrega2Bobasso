@@ -1,0 +1,111 @@
+#products-intro{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+
+    h1{
+        color: black;
+        font-size: 5rem;
+        text-align: center;
+        white-space: pre-line;
+    }
+
+    p{
+        width: 75%;
+        text-align: center;
+        white-space: pre-line;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+}
+
+#products-list{
+    border-top: 2px solid black;
+    margin: 10px 0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    grid-template-areas: 
+    "product-1 product-2 product-3"
+    "product-4 product-5 product-6"
+    ". product-7 .";
+}
+
+.product-1{grid-area: product-1;}
+.product-2{grid-area: product-2;}
+.product-3{grid-area: product-3;}
+.product-4{grid-area: product-4;}
+.product-5{grid-area: product-5;}
+.product-6{grid-area: product-6;}
+.product-7{grid-area: product-7;}
+
+.model{
+    text-align: left;
+    border: 1px #2B2F33 solid;
+    box-shadow: 2px 2px 2px 2px #2B2F33;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+
+    img{
+        height: 15rem;
+    }
+}
+
+.model-info{
+    font-family: var(--font-model);
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 13px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.model-name{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.model-desc{
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.model-price{
+    align-self: center;
+    margin: 0;
+}
+
+.buy-btn{
+    width: 25%;
+    align-self: center;
+}
+
+@media (max-width: 767.98px){
+    #products-intro{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 20px;
+    }    
+
+    #products-list{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+}

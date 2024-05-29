@@ -1,0 +1,24 @@
+#container-mobile{
+    display: none;
+}
+
+#container-desktop{
+    width: 75%;
+    margin: 70px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.txt-form-desktop{
+    width: 30%;
+    text-align: left;
+    white-space: pre-line;
+    font-size: 13.5px;
+
+    span{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+}

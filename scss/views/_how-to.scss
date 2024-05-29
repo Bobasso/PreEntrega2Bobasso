@@ -1,0 +1,32 @@
+#intro-how{
+    text-align: center;
+    margin: 20px auto;
+    width: 75%;
+    align-self: center;
+
+    h1{
+        font-size: 3rem;
+        text-decoration: underline black 2px;
+    }
+
+    p{
+        font-size: 1.5rem;
+        text-align: center;
+        white-space: pre-line;
+    }
+}
+
+#videos-how{
+    margin: 0 auto 20px auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px 25px;
+}
+
+.video-size{
+    border: 2px solid black;
+    height: 35rem;
+    width: 100%;
+    margin: 0 auto;
+}

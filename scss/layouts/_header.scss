@@ -1,0 +1,61 @@
+#logo{
+    height: 13rem;
+    width: 13rem;
+}
+
+.background-nav{background-color: $color5;}
+
+.items-menu{margin: 0 50px;}
+
+.color-item{
+    font-size: 1.7rem;
+    margin: 0 15px;
+    border-radius: 20px;
+    transition: background-color 1s;
+    text-transform: uppercase;
+    
+    a{
+        color: white;
+    }
+}
+
+@media (min-width: 992px){
+    .color-item{
+        padding: 5px 15px;
+
+        &:hover{
+            background-color: $color6;
+        }
+
+        a:hover{
+            color: white;
+        }
+    }
+}
+
+@media (max-width: 767.98px){
+    .items-menu{margin: 0;}
+
+    .color-item{
+        font-size: 1.7rem;
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+        border-top: 1px solid white;
+
+        a{
+            color: white;
+            margin: 0 10px;
+        }
+    }
+
+    .btn-mobile{
+        color: white;
+        border: 1px solid white;
+        margin: 0 15px;
+    }
+    
+    .navbar{
+        --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+    }
+}

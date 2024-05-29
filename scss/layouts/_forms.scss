@@ -1,0 +1,40 @@
+.contact-us-form{
+    padding: 10px;
+    box-shadow: 0px 0px 40px 0px rgb(71, 71, 71);
+    border-radius: 10px;
+    background-color: whitesmoke;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+    label{
+        font-size: 16px;
+    }
+}
+
+.form-name{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    margin: 10px;
+}
+
+.form-info{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+textarea{
+    resize: none;
+}
+
+.form-button{
+    align-self: center;
+    width: 20%;
+}
+
+.submit-btn{
+    font-size: 14px;
+    width: 100%;
+}

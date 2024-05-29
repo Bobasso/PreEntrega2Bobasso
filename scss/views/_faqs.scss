@@ -1,0 +1,49 @@
+#intro-faqs{
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "faq-h1 faq-img"
+    "faq-p faq-img";
+
+    h1{
+        font-size: 3rem;
+        font-weight: bold;
+        grid-area: faq-h1;
+        align-self: end;
+    }
+
+    p{
+        font-size: 13.5px;
+        text-align: left;
+        white-space: pre-line;
+        grid-area: faq-p;
+        align-self: start;
+    }
+
+    img{
+        grid-area: faq-img;
+    }
+}
+
+.content-faqs{
+    width: 60%;
+    margin: 0 auto;
+    white-space: pre-line;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-width: 2px 2px 0 2px;
+    border-color: black;
+    border-style: dotted;
+}
+
+.question{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.answer{
+    font-style: italic;
+}
