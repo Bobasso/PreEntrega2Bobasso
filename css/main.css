@@ -397,6 +397,14 @@ textarea {
   margin: 0 auto;
 }
 
+@media (max-width: 767.98px) {
+  #videos-how {
+    margin: 0 auto 20px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+}
 #intro-faqs {
   width: 60%;
   margin: 0 auto;
