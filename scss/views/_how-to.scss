@@ -35,7 +35,6 @@
     #videos-how{
         margin: 0 auto 20px auto;
         width: 90%;
-        display: flex;
-        flex-direction: column;
+        @include displayFlex(column, center, space-around);
     }
 }

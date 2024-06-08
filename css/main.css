@@ -245,6 +245,7 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
   }
   #intro-index-text {
     width: 90%;
@@ -263,8 +264,8 @@ textarea {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
   padding: 0 20px;
 }
 #products-intro h1 {
@@ -327,8 +328,8 @@ textarea {
   border-radius: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
   padding: 5px;
 }
 .model img {
@@ -343,6 +344,8 @@ textarea {
   width: 70%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .model-name {
@@ -354,6 +357,7 @@ textarea {
 .model-desc {
   font-weight: 500;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .model-price {
@@ -372,13 +376,15 @@ textarea {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
     padding: 0 20px;
   }
   #products-list {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     gap: 50px;
   }
 }
@@ -419,6 +425,8 @@ textarea {
     width: 90%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
 }
 #intro-faqs {
@@ -470,6 +478,8 @@ textarea {
     width: 90%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
   #intro-faqs h1 {
     margin: 10px 0 0 0;
@@ -519,6 +529,7 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
   }
   #container-mobile p {
     font-size: 3rem;

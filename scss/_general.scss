@@ -25,3 +25,10 @@ a {
 ul {
     list-style: none;
 }
+
+@mixin displayFlex($flex-dir, $items, $content){
+    display: flex;
+    flex-direction: $flex-dir;
+    align-items: $items;
+    justify-content: $content;
+}

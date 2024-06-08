@@ -1,10 +1,7 @@
 #products-intro{
     width: 90%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    @include displayFlex(row, center, space-around);
     padding: 0 20px;
 
     h1{
@@ -50,10 +47,7 @@
     border: 1px #2B2F33 solid;
     box-shadow: 2px 2px 2px 2px #2B2F33;
     border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    @include displayFlex(row, center, space-around);
     padding: 5px;
 
     img{
@@ -67,8 +61,7 @@
     font-style: normal;
     font-size: 13px;
     width: 70%;
-    display: flex;
-    flex-direction: column;
+    @include displayFlex(column, center, space-around)
 }
 
 .model-name{
@@ -80,6 +73,7 @@
 .model-desc{
     font-weight: 500;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .model-price{
@@ -96,16 +90,12 @@
     #products-intro{
         width: 90%;
         margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        @include displayFlex(column, center, space-around);
         padding: 0 20px;
     }    
 
     #products-list{
-        display: flex;
-        flex-direction: column;
+        @include displayFlex(column, center, space-around);
         gap: 50px;
     }
 }
