@@ -98,4 +98,9 @@
         @include displayFlex(column, center, space-around);
         gap: 50px;
     }
+
+    .buy-btn{
+        width: 50%;
+        align-self: center;
+    }
 }
